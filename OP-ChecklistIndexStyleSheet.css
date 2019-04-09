@@ -12,11 +12,29 @@
   margin-top: -5px;
   z-index: 1;
   box-shadow: 3px 3px 3px grey;
-  font-family: 'Rubik', sans-serif;
+  /*font-family: 'Rubik', sans-serif;
   font-weight: bold;
   font-size: x-large;
-  color: #50067F;
+  color: #50067F;*/
 }
+
+#logo {
+	float: left;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	font-size: x-large;
+	color: #50067F;
+}
+
+#howToUse {
+	float: right;
+	padding-right: 55px;
+	padding-top: 7px;
+	font-family: 'Rubik', sans-serif;
+	color: #50067F;
+	cursor: pointer;
+}
+
 
 body {
 	margin: 0px;

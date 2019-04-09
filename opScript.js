@@ -1,3 +1,5 @@
+var howToUse = document.getElementById("howToUse");
+
 var observerButton = document.getElementById("observerButton");
 var deciderButton = document.getElementById("deciderButton");
 var OiButton = document.getElementById("OiButton");
@@ -60,6 +62,11 @@ var fSense = document.getElementsByClassName("fSense");
 var mSense = document.getElementsByClassName("mSense");
 var fDe = document.getElementsByClassName("fDe");
 var mDe = document.getElementsByClassName("mDe");
+
+howToUse.addEventListener("click", function() {
+	alert("Click on buttons to activate the cross-checks. Double-click to deactivate the cross-checks. Take plenty of notes!");
+}) 
+
 
 function crossCheckFunction(button1, data, data2, data3, data4) {
 button1.addEventListener("click", function() {
