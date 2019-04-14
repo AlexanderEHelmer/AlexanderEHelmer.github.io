@@ -49,7 +49,7 @@ body {
 .crossTable {
 	border: 1px solid #50067F;
 	border-radius: 5px;
-	width: 590px;
+	width: /*590px*/ 39%;
 	box-shadow: 3px 3px 3px #778899;
 	padding: 10px;
 	position: relative;
@@ -96,7 +96,7 @@ th, td {
 
 #grid128 {
 	border-radius: 8px;
-	width: 865px;
+	width: /*865px*/ 57%;
 	height: 220px;
 	position: fixed;
 	top: 45%;
